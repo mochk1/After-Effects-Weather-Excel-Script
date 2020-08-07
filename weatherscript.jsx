@@ -21,7 +21,7 @@ mainWindow.show();
 
 
  ProjBtn.onClick = function() {
-                   var FileLocation = "C:/Users/Maor/Desktop/Excel_Weather_Script/TEMP + TASHKIF.aep"
+                   var FileLocation = "./TEMP + TASHKIF.aep"
                 var my_file = new File(FileLocation);   
              if (my_file.exists) {
                  app.beginSuppressDialogs()
